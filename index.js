@@ -106,3 +106,29 @@ $("#other").click(function() {
     $("#income-type").text("Other");
 });
 
+$("#balance").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://dt50bartosz.github.io/balance/";
+  
+});
+
+
+
+$("#main-menu").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://dt50bartosz.github.io/main-login/";
+  
+});
+
+
+$("#add-income").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://dt50bartosz.github.io/addIncome/";
+  
+});
